@@ -1,6 +1,6 @@
 {
   "name": "engine.io",
-  "version": "1.4.3",
+  "version": "1.4.3-1",
   "description": "The realtime engine behind Socket.IO. Provides the foundation of a bidirectional connection between client and server",
   "main": "./lib/engine.io",
   "author": "Guillermo Rauch <guillermo@learnboost.com>",
@@ -18,7 +18,7 @@
   "dependencies": {
     "debug": "1.0.3",
     "ws": "0.5.0",
-    "engine.io-parser": "1.1.0",
+    "engine.io-parser": "git+https://github.com/Automattic/engine.io-parser.git#b72c7f1530d319d6a20016e3a8588fb09d8e4bd0",
     "base64id": "0.1.0"
   },
   "devDependencies": {
